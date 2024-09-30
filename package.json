@@ -1,0 +1,19 @@
+{
+  "name": "my-cassandra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "cassandra-driver": "^4.6.3",
+    "@opentelemetry/api": "^1.2.0",
+    "@opentelemetry/sdk-node": "^0.28.0",
+    "@opentelemetry/instrumentation-cassandra-driver": "^0.26.0",
+    "@opentelemetry/exporter-collector-grpc": "^0.28.0"
+  }
+}
